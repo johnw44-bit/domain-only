@@ -1,0 +1,8 @@
+{
+  "manifest_version": 3,
+  "name": "Domain Only",
+  "version": "1.0.0",
+  "description": "Adressfältet går alltid till domänen, aldrig en undersida.",
+  "permissions": ["webNavigation", "history"],
+  "background": { "service_worker": "bg.js" }
+}
